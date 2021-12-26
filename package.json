@@ -1,0 +1,28 @@
+{
+  "name": "faucets-discord-bot",
+  "version": "1.0.0",
+  "description": "Your Web3 Discord Bot.",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarenGonzaga/faucets-discord-bot.git"
+  },
+  "author": "Waren Gonzaga",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/WarenGonzaga/faucets-discord-bot/issues"
+  },
+  "homepage": "https://github.com/WarenGonzaga/faucets-discord-bot#readme",
+  "packageManager": "yarn@3.1.1",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "discord.js": "^13.4.0",
+    "dotenv": "^10.0.0"
+  }
+}
